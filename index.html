@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+   <meta charset="utf-8">
+   <meta name="robots" content="noindex,nofollow">
+   <title>HTMLベーステンプレート</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style2.css">
+   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <script>
+   $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+   });
+   </script>
+  </head>
+  <body>
+    <header>
+      <h1>
+         <a href="/">ロゴか社名</a>
+      </h1>
+      <nav class="pc-nav">
+         <ul>
+            <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>ホーム</span><span>TOP</span></a></li>
+            <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>事業内容</span><span>Business Description</span></a></li>
+            <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>会社概要</span><span>About</span></a></li>
+            <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>採用情報</span><span>Recruitment</span></a></li>
+            <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>お問い合わせ</span><span>Contact</span></a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+        <ul>
+          <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>ホーム</span></a></li>
+          <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>事業内容</span></a></li>
+          <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>会社概要</span></a></li>
+          <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>採用情報</span></a></li>
+          <li class="header-nav-item-outline"><a class="header-nav-item hover-opacity" href=""><span>お問い合わせ</span></a></li>
+          <li class="close"><span>閉じる</span></li>
+        </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+    </header>
+    <section>
+      <div class="main-visual">
+        <h2 class=main-text>キャッチフレーズを入れる</h2>
+        <p class=sub-text>〇〇でお困りですか？<br>その課題解決いたします。私達にお任せください。</p>
+      </div>
+    </section>
+    <section class="main-section">
+      <div class="contents-width">
+        <div class="backcolor">
+          <h2 class="titel">
+            <span>BUSSIENS</span>
+          </h2>
+          <p class="sub-catch">お客様の課題を親身に考え、課題に対して迅速・丁寧がモットーです。<br>2行目を書く。<br>3行目まで書けると見た目がいいかも。</p>
+          <div class="button_wrapper">
+            <a href="" class="btn btn--black btn--radius">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-section">
+      <div class="contents-width">
+        <div class="backcolor2">
+          <h2 class="titel">
+            <span>ABOUT</span>
+          </h2>
+          <p class="sub-catch">お客様の課題を親身に考え、課題に対して迅速・丁寧がモットーです。<br>2行目を書く。<br>3行目まで書けると見た目がいいかも。</p>
+          <div class="button_wrapper">
+            <a href="" class="btn btn--black btn--radius">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- topics □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ -->
+    <div class="topics">
+      <div class="cont_title">
+        <h2>TOPICS</h2><hr>
+      </div>
+      <div class="toppics_main">
+        <div class="topics_box">
+          <p class="topics_date">2021.4月</p>
+          <p class="topics_text">施工実績が100件を超えました。</p>
+        </div>
+        <hr>
+          <div class="topics_box">
+            <p class="topics_date">2020.1月</p>
+            <p class="topics_text"><a href="" class="topic_url">春日部に事業所</a>を新設致しました。</p>
+          </div>
+        </hr>
+      </div>
+  </body>
+</html>

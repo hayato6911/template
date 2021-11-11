@@ -227,6 +227,7 @@ a.btn--black:hover {
 #floatbox .inner {
   width: 720px;
   padding-top: 30px;
+  padding-bottom: 30px;
   margin-left: 20%;
 }
 
@@ -247,6 +248,8 @@ a.btn--black:hover {
 
 #floatbox h2 {
     margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 #floatbox .box .text {
@@ -261,4 +264,10 @@ a.btn--black:hover {
 #floatbox .box_space {
     display: table-cell;
     width: 20px;
+}
+
+.button_wrapper2 {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 87px;
 }

@@ -96,7 +96,7 @@ h2 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url(images3.jpeg) top center / cover no-repeat;
+  background: url(images/images3.jpeg) top center / cover no-repeat;
   margin-bottom: -10px;
 }
 
@@ -273,7 +273,7 @@ a.btn--black:hover {
 }
 
 .contents-wid {
-  background: url(images4.jpeg) no-repeat center center;
+  background: url(images/images4.jpeg) no-repeat center center;
   background-size: cover;
   padding: 60px 0px;
 }

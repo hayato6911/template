@@ -257,17 +257,17 @@ a.btn--black:hover {
 }
 
 #floatbox .box strong {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #floatbox .box_space {
-    display: table-cell;
-    width: 20px;
+  display: table-cell;
+  width: 20px;
 }
 
 .button_wrapper2 {
-  text-align: center;
-  padding-bottom: 30px;
-  margin-top: 87px;
+text-align: center;
+padding-bottom: 30px;
+margin-top: 87px;
 }

@@ -232,44 +232,44 @@ a.btn--black:hover {
 }
 
 #floatbox .box {
-    vertical-align: top;
-    display: table-cell;
-    width: 350px;
-    height: 350px;
-    background: #f2f2f2;
-    padding: 0 20px;
-    border-radius: 5px;
+  vertical-align: top;
+  display: table-cell;
+  width: 350px;
+  height: 350px;
+  background: #f2f2f2;
+  padding: 0 20px;
+  border-radius: 5px;
 }
 
 #floatbox .box_inner {
-    width: 100%;
-    margin-top: 50px;
+  width: 100%;
+  margin-top: 50px;
 }
 
 #floatbox h2 {
-    margin-bottom: 10px;
-    color: black;
-    font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
 }
 
 #floatbox .box .text {
-    text-align: left;
+  text-align: left;
 }
 
 #floatbox .box strong {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #floatbox .box_space {
-    display: table-cell;
-    width: 20px;
+  display: table-cell;
+  width: 20px;
 }
 
 .button_wrapper2 {
   text-align: center;
   padding-bottom: 30px;
-  margin-top: 87px;
+  margin-top: 40px;
 }
 
 .contents-wid {
@@ -280,4 +280,67 @@ a.btn--black:hover {
 
 .backcolor3 {
   margin-top: -20px;
+}
+
+/*footerのcss*/
+footer {
+  background:gray;
+  padding: 40px 0 50px;
+  margin: -10px;
+}
+
+.footer_cont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer_menu ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 300px;
+  list-style: none;
+  margin-left: 70px;
+}
+
+.footer_menu ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: -100px;
+}
+
+.address_name {
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.address_info {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.address_tel {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.address_tel span {
+  padding-right: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
 }

@@ -134,17 +134,21 @@
   }
   
   #floatbox .box {
-     display: block;
-     width: 100%;
-     height: auto;
-     float: none;
-     padding: 30px 20px 35px;
-     margin-bottom: 20px;
-  }
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 30px 20px 35px;
+    margin-bottom: 20px;
+   }
    
    .button_wrapper2 {
      text-align: center;
      padding-bottom: 30px;
+     margin-top: 0px;
+   }
+   
+   .backcolor3 {
      margin-top: 0px;
    }
 }

@@ -228,7 +228,7 @@ a.btn--black:hover {
   width: 720px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 20%;
+  margin: auto;
 }
 
 #floatbox .box {
@@ -257,17 +257,27 @@ a.btn--black:hover {
 }
 
 #floatbox .box strong {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 #floatbox .box_space {
-  display: table-cell;
-  width: 20px;
+    display: table-cell;
+    width: 20px;
 }
 
 .button_wrapper2 {
-text-align: center;
-padding-bottom: 30px;
-margin-top: 87px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 87px;
+}
+
+.contents-wid {
+  background: url(images/images4.jpeg) no-repeat center center;
+  background-size: cover;
+  padding: 60px 0px;
+}
+
+.backcolor3 {
+  margin-top: -20px;
 }

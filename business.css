@@ -91,15 +91,6 @@ h2 {
   display: block
 }
 
-.main-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url(images/top1.jpeg) top center / cover no-repeat;
-  margin-bottom: -10px;
-}
-
 .sp-nav {
   display: none;
 }
